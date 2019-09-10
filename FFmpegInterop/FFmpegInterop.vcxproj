@@ -263,6 +263,7 @@
   </ItemGroup>
   <ItemGroup>
     <Midl Include="FFmpegInteropLogging.idl" />
+    <Midl Include="MediaThumbnailData.idl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
