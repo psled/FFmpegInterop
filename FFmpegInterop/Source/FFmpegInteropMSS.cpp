@@ -64,8 +64,8 @@ FFmpegInteropMSS::FFmpegInteropMSS()
 {
 	if (!isRegistered)
 	{
-		av_register_all();
-		av_lockmgr_register(lock_manager);
+		//av_register_all();
+		//av_lockmgr_register(lock_manager);
 		isRegistered = true;
 	}
 }
